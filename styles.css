@@ -1,0 +1,65 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.container {
+    height: 100%;
+    background-image: url('background4.jpg'); /* Replace 'background.jpg' with your image path */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(128, 128, 128); /* Gray background color with transparency */
+    padding: 5px 20px; /* Adjust padding as needed */
+    color: white; /* Text color */
+    font-family: Arial, sans-serif; /* Optional: Choose your font */
+}
+
+.left {
+    /* Styles for the left side */
+}
+
+.right {
+    /* Styles for the right side */
+}
+.footer {
+    position: fixed;
+    bottom: 20px; /* Set the distance from the bottom of the viewport */
+    left: 50%; /* Center the footer horizontally */
+    transform: translateX(-50%); /* Center the footer horizontally */
+    background-color: rgba(0, 0, 0, 0.2); /* Gray background color with transparency */
+    padding: 30px 20px; /* Increase padding vertically */
+    color: white; /* Text color */
+    font-family: Arial, sans-serif; /* Optional: Choose your font */
+    text-align: center; /* Center align the content */
+    width: 70%; /* Set the width of the footer */
+    border-radius: 10px; /* Adjust the value to change the roundness of the corners */
+}
+.clock {
+    font-family: 'Roboto', sans-serif; /* Apply the Roboto font */
+    font-size: 4rem; /* Adjust font size as needed */
+    text-align: center;
+    color: white;
+    margin-top: 65px; /* Adjust distance from header */
+}
+.date {
+    font-family: 'Roboto', sans-serif; /* Apply the Roboto font or any other font you prefer */
+    font-size: 1.2rem; /* Adjust font size as needed */
+    text-align: center;
+    color: white;
+    margin-top: 10px; /* Adjust distance from clock */
+}
+
+
+
+
+
+
